@@ -20,7 +20,7 @@ body{
 	font-size:25px;
 }
 .head p{
-	    color: #606770;
+	color: #606770;
 }
 .form{
 	background-color:white;
@@ -59,8 +59,89 @@ input{
 	margin-left:13px;
 }
 select{
-	height:2rem;
-	width:30%;
-	padding:2px;
+	margin-left:19px;
+	width:27.9%;
+	padding:8px;
 	margin-bottom:15px;
+	border:1px solid #dadde1;
+	border-radius:5px;
+	outline:none;
+	gap:16px;
+}
+.sec{
+	margin-left:13px;
+}
+.form h4{
+	margin-left:13px;
+	color: #606770;
+	font-size:13px;
+}
+.gender{
+	display:flex;
+	margin-left:13px;
+	gap:22px;
+	margin-bottom:15px;
+}
+.gender-1{
+	border:1px solid #dadde1;
+	padding:8px;
+	width:25%;
+	border-radius:5px;
+}
+.gender-2{
+	border:1px solid #dadde1;
+	padding:8px;
+	width:25%;
+	border-radius:5px;
+}
+.gender-3{
+	border:1px solid #dadde1;
+	padding:8px;
+	width:25%;
+	border-radius:5px;
+}
+.gender input{
+	float:right;
+}
+.total-span{
+	color: #606770;
+	font-size:12px;
+}
+.span{
+	margin-left:13px;
+	margin-bottom:15px;
+	width:80%;
+	line-height:18px;
+}
+.span-2{
+	margin-left:13px;
+	margin-bottom:15px;
+	width:87%;
+	line-height:18px;
+}
+.total-span a{
+	text-decoration:none;
+}
+.signup{
+	margin-left:13px;
+	margin-bottom:15px;
+	text-align:center;
+}
+.signup button{
+	padding:7px;
+	width:40%;
+	outline:none;
+	border:1px solid #00a400;
+	background-color:#00a400;
+	color:white;
+	letter-spacing:2px;
+	font-weight:700;
+	font-size:20px;
+	border-radius:5px;
+	margin-bottom:15px;	
+}
+.login a{
+	text-decoration:none;
+	font-size:20px;
+	color: #1877f2;
 }
