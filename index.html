@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+<script src="https://kit.fontawesome.com/3c8b9823c0.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
   </head>
 <body>
@@ -21,12 +22,16 @@
 		</div>
 		
 				<div class="form">
-					<input type="text" placeholder="First name" class="firstname" required>
-					<input type="text" placeholder="Surname" class="surname" required>
-					<input type="text" placeholder="Mobile number or email address" class="mail" required>
-					<input type="text" placeholder="New password" class="pass" required>
+					<div class="input">
+						<div class="f-name">
+							<div class="first-input"><input type="text" placeholder="First name" class="firstname" required><i class="fa-solid fa-circle-exclamation"></i></div>
+							<div class="surname-input"><input type="text" placeholder="Surname" class="surname" required><i class="fa-solid fa-circle-exclamation"></i></div>
+						</div>
+							<div class="mail-input"><input type="text" placeholder="Mobile number or email address" class="mail" required><i class="fa-solid fa-circle-exclamation"></i></div>
+							<div class="pass-input"><input type="text" placeholder="New password" class="pass" required><i class="fa-solid fa-circle-exclamation"></i></div>
+					</div>
 					
-					<h4>Date of birth</h4>
+				<h4>Date of birth</h4>
 					<select class="sec">
 						<option>1</option>
 						<option>2</option>
@@ -144,7 +149,7 @@
 						
 						<div class="signup">
 							<button>Sign Up</button>
-							<div class="login"><a href="">Already have an account?</a></div>
+							<div class="login"><a href="login.html">Already have an account?</a></div>
 						</div>
 				
 				</div>

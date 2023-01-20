@@ -31,32 +31,59 @@ body{
 	position:relative;
 	border-top:1px solid #dadde1;
 }
-input{
+.input input{
+	border:none;
 	outline:none;
-	padding:10px;
-	border:1px solid #dadde1;
-	border-radius:5px;
+	width:70%;
+	/* padding:10px; */
+	/* border:1px solid #dadde1; */
+	/* border-radius:5px; */
 }
-.firstname{
+.first-input{
+	 padding:10px; 
+	 border:1px solid #dadde1; 
+	border-radius:5px;
 	width:40%;
 	margin:15px;
 	height:22px;
 }
-.surname{
+.surname-input{
+	 padding:10px; 
+	 border:1px solid #dadde1; 
+	border-radius:5px;
 	width:40%;
 	height:22px;
+	margin:15px;
 }
-.mail{
-	width:89%;
+.mail-input{
+	 padding:10px; 
+	 border:1px solid #dadde1; 
+	border-radius:5px;
+		width:89%;
 	margin-bottom:15px;
 	height:22px;
 	margin-left:13px;
 }
-.pass{
+.pass-input{
+	 padding:10px; 
+	 border:1px solid #dadde1; 
+	border-radius:5px;
 	width:89%;
 	height:22px;
 	margin-bottom:15px;
 	margin-left:13px;
+}
+.f-name{
+	display:flex;
+}
+.f-name i{
+	float:right;
+}
+.mail-input input{
+	width:95%;
+}
+.pass-input input{
+	width:95%;
 }
 select{
 	margin-left:19px;
@@ -109,7 +136,7 @@ select{
 }
 .span{
 	margin-left:13px;
-	margin-bottom:15px;
+	margin-bottom:7px;
 	width:80%;
 	line-height:18px;
 }
